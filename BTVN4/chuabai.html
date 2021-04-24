@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [4,6,2,20,31]
+
+        
+        // for(let i = 0; i<arr.length;i++){
+        //     for(let j = 0; j<arr.length;j++){
+        //         if(arr[j]>arr[j+1]){
+        //             let temp = arr[j];
+        //             arr[j]= arr[j+1];
+        //             arr[j+1]=temp;
+        //         }
+        //     }
+        // } 
+        
+            
+        
+       
+        // arr.sort(function (a, b) {
+        //     return a - b;
+        // })
+        // console.log(arr);
+
+
+        // // map để tạo một mảng mới từ 1 mảng có sẵn theo một công thức
+        // let newArr = arr.map(function(value) {
+        //     let res = value *2
+        //    return res
+        // })
+        // console.log(newArr);
+
+        //filter để lọc thành 1 mảng mới với điều kiện gì đó
+        // let newArrFilter = arr.filter(function(value) {
+        //     if(value%2==0)
+        //     return true; // truthy
+        // })
+        //  console.log(newArrFilter);
+
+        let a = 10
+          let sum = arr.reduce(function(pre,cur){
+              cur += pre;
+              return cur
+          },a)  
+        console.log(sum);
+
+        // // console.log(arr);
+        // // console.log(newArrFilter);
+        // let profit = [1000, 1500, 2300, 5000]; // +0.05
+        // let newProfit = [];
+        // for (let i = 0; i< profit.length; i++) {          const element = array[i];
+        //     newProfit.push(profit[i]+profit[i]*0.05)
+        // }
+        
+        // // //c2
+        // // profit.forEach(function(value){
+        // //     newProfit.push(value + value * 0.05)
+        // // }
+        // // )
+
+        // for (let value of newProfit) {
+        //     console.log(value);
+        // }
+    </script>
+</body>
+</html>

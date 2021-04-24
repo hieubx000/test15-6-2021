@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = [5,8,10,4,11,9]
+        for(let i=1;i<a.length;i++){
+            t=a[i]
+            let j = 1;
+        while((j>0)&&(a[j-1]>t)){
+            a[j]=a[j-1];
+            j=j-1;
+        }
+        a[j]=t
+        }
+        console.log(a);
+    </script>
+</body>
+</html>
