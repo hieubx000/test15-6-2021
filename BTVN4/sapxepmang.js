@@ -26,6 +26,7 @@ let m
            
 //     }
 //    }
+//hihiiih
 for(let i = 0;i<A.length-1;++i){
     for(let j = 0;j<A.length-1;++j){
         if(A[i]<A[j]){
