@@ -1,0 +1,48 @@
+    1  heroku
+    2  heroku login
+    3  heroku
+    4  sudo apt update
+    5  sudo apt install get update
+    6  apt install get update
+    7  clear
+    8  ls
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd ./New\ folder/
+   13  ls
+   14  clear
+   15  cd ./kkkk/
+   16  mkdir jjjj
+   17  cd ..
+   18  mkdir kkkk/sdasd
+   19  rm -r kkkk/sdasd/
+   20  ls
+   21  rm -rf kkkk/
+   22  ls
+   23  touch hihi.txt'
+   24  touch hihi.txt
+   25  touch hihi.txt
+   26  ls
+   27  code .
+   28  code .
+   29  code .
+   30  git remote -v
+   31  git push Origin 
+   32  git init
+   33  git add .
+   34  git push Origin
+   35  git push Origin master
+   36  git add .
+   37  git commit -m "xoa file"
+   38  git push Origin master
+   39  rm -rf .git
+   40  git init
+   41  git commit -m "xoa2"
+   42  git add .
+   43  git commit -m "xoa2"
+   44  git push Origin master
+   45  git remote add Origin https://github.com/hieubx000/hoc-js.git
+   46  git push Origin master
+   47  history 50 
+   48  history 50 > hocgitt.txt
