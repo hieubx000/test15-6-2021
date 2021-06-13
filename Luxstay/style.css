@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@100;300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.action{
+    color: rgb(34, 34, 34);
+}
+p{
+    font-weight: 300;
+    font-size: 36;
+}
+.suggestion{
+    /* background-color: lightcoral ; */
+    width: 203px;
+    /* magrin: 20px;
+    top: 0px left 0px right 0px bottom 0px */
+    /* border: 5px solid #999; */
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.suggestion > p{
+    font-weight: lighter;
+    /* width: #999; */
+}
+
+.img-suggestion{
+    width: 203px;
+}
+h2{
+    width: 334px;
+    border-bottom: 5px solid blue;
+}
+
+#section-sergettion{
+    flex-direction: row;
+    display: flex;
+}

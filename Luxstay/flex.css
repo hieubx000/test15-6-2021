@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cha{
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightblue;
+}
+
+#con {
+   
+    width: 150px;
+    height: 250px;
+    background-color:red;
+    border-radius: 20px;
+}
+
+#con2 {
+    
+    width: 150px;
+    height: 250px;
+    background-color:blue;
+    border-radius: 20px;
+}
+
+#con3 {
+    
+    width: 150px;
+    height: 250px;
+    background-color:yellow;
+    border-radius: 20px;
+}

@@ -1,0 +1,27 @@
+/* <!-- internal style --> */
+    
+h1{ 
+    color : #cc1020;
+    
+    }
+p{
+    color: salmon;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+}
+div{
+    color: springgreen;
+}
+/* class name: có thể dùng nhiều lần*/
+.boiDen{
+    color: black;
+}
+.mauCoral{
+    color: lightcoral;
+}
+/* id name: chỉ dùng 1 lần duy nhất */
+#ok {
+    color: lightgreen;
+}
+    

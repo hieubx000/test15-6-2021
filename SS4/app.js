@@ -63,8 +63,8 @@ mang.push(5)    //thêm vào cuối mảng
 console.log(mang);
 let ccuoiMang = mang.pop()      //lấy ra phần tử ở cuối mảng
 console.log(mang);
-mang.unshift(55);
-console.log(mang);      //thêm vào đầu mảng
+mang.unshift(55);           //thêm vào đầu mảng
+console.log(mang);      
 mang.shift();        //lấy ra giá trị ở đầu
 
 

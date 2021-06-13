@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#todos{
+    margin:20px auto;
+    border-radius: 30px;
+    width: 350px;
+    height: 550px;
+    background: #e0e0e0;
+    box-shadow:  10px 10px 20px #bebebe, -10px -10px 20px #ffffff;      
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+}
+
+#ulTodo {
+    list-style: none;
+}
+
+#ulTodo > li {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+    margin: 20px;
+}
+
+input{
+    padding: 3px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px 10px;
+}
+
+button:hover{
+    background-color: #333;
+    color: #ffffff;
+    cursor: pointer; /* hiệu ứng đưa con trỏ chuột biến thành bàn tay */
+}
+
+button.del {
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

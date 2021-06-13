@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cha {
+   
+    height: 300px;
+    margin: 70px 70px 0;
+    border-radius: 20px;
+    background-color: lightcoral;
+    position: relative; 
+}
+
+#con {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    background-color:lightgreen;
+    bottom: -100px;
+    left: 172px;
+    border-radius: 20px;
+}
+
+#con2 {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    background-color:lightblue;
+   bottom: -100px;
+   left: 494px;
+   border-radius: 20px;
+}
+
+#con3 {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    background-color:lightyellow;
+   bottom: -100px;
+   left: 816px;
+   border-radius: 20px;
+}
