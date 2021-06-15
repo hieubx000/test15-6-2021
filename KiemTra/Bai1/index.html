@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let n = prompt("nhập n")
+        let inputNumber = prompt("nhập số inputNumber")
+
+        function findOppositeNumber(n, inputNumber) {
+            if (n < 4 || n > 20 || n % 2 != 0) {
+                return;
+            } else
+            if ((inputNumber + (n / 2) > n - 1)) {
+                return inputNumber - (n / 2)
+            } else {
+                return inputNumber + (n / 2);
+            }
+
+        };
+        let m = findOppositeNumber(n, inputNumber)
+        console.log(m);
+    </script>
+
+</body>
+
+</html>

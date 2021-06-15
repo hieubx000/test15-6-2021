@@ -7,7 +7,7 @@ let ketqua = 23;
 // })
 
 if (input == ketqua) {
-    alert("Bạn đã đoán đúng")
+    alert("Bạn đã đoán đúng");
 } else {
-    alert("đoán lại")
+    alert("đoán lại");
 }
