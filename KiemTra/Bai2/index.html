@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let str1 = prompt("nhập chuỗi 1")
+        let str2 = prompt("nhập chuỗi 2")
+        let str3 = ""
+
+        function mergeString(str1, str2) {
+            let str3 = "";
+            let i = 0;
+            while (i < str1.length || i < str2.length) {
+                str3 = str3 + str1[i] + str2[i];
+                if (i == str1.length) return str3 + str1.substring(i, str1.length);
+                else if (i == str2.length) return str3 + str2.substring(i, str2.length);
+                i++;
+            }
+            return str3;
+        }
+
+        console.log(mergeString("abc", "123"));
+    </script>
+</body>
+
+</html>
